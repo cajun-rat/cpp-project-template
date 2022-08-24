@@ -1,0 +1,17 @@
+---
+Checks:          >-
+  boost-*,
+  bugprone-*,
+  cert-*,-cert-err58-cpp,-cert-env33-c,-cert-err60-cpp,
+  clang-analyzer-*,
+  cppcoreguidelines-*,
+  cppcoreguidelines-pro-*,
+  google-*
+  hicpp-*
+  llvm-namespace-comment,
+  misc-*
+  modernize-*
+  performance-*
+  readability-*
+
+WarningsAsErrors: '*'
